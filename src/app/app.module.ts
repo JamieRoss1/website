@@ -10,6 +10,8 @@ import { HeaderComponent } from './components/global/header/header.component';
 import { FooterComponent } from './components/global/footer/footer.component';
 import { BlogMainComponent } from './components/blog/blog-main/blog-main.component';
 import { BlogMessageComponent } from './components/blog/blog-message/blog-message.component';
+import { LoginComponent } from './components/account/login/login.component';
+import { RegisterComponent } from './components/account/register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { BlogMessageComponent } from './components/blog/blog-message/blog-messag
     HeaderComponent,
     FooterComponent,
     BlogMainComponent,
-    BlogMessageComponent
+    BlogMessageComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
