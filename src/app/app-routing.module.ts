@@ -5,7 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
   },
   {
@@ -17,8 +17,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(
-        routes,
-        { enableTracing: true }
+        routes
+        // { enableTracing: true }
       )
   ],
   exports: [
